@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10a041e4-0532-46f8-8c62-f1d0a1656916" name="Changes" comment="lesson1" />
+    <list default="true" id="10a041e4-0532-46f8-8c62-f1d0a1656916" name="Changes" comment="lesson1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +104,28 @@
       <option name="project" value="LOCAL" />
       <updated>1670157903902</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lesson1">
+      <created>1670172362803</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670172362803</updated>
+    </task>
+    <task id="LOCAL-00003" summary="lesson1">
+      <created>1670172419733</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670172419733</updated>
+    </task>
+    <task id="LOCAL-00004" summary="lesson1">
+      <created>1670172570714</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670172570714</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +151,7 @@
       <breakpoints>
         <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/geekbrains/lesson1/ProductRepository.java</url>
-          <line>26</line>
+          <line>25</line>
           <properties class="com.geekbrains.lesson1.ProductRepository" method="showAllProducts">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -137,7 +160,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/geekbrains/lesson1/Cart.java</url>
-          <line>39</line>
+          <line>38</line>
           <properties class="com.geekbrains.lesson1.Cart" method="deleteProduct">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
