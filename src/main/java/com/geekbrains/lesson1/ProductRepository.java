@@ -26,12 +26,12 @@ public class ProductRepository {
 
     public void showAllProducts() {
         System.out.println("Список товаров магазина: ");
-    productList.stream().map(Product::toString).forEach(System.out::println);
+        productList.stream().map(Product::toString).forEach(System.out::println);
     }
 
 
-    public   Product getProductById (int id){
-     return productList.stream().filter(product -> product.getId()==id).findFirst().orElse(null);
+    public Product getProductById(int id) {
+        return productList.stream().filter(product -> product.getId() == id).findFirst().orElse(null);
     }
 
 }
