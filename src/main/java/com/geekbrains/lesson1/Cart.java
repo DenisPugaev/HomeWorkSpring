@@ -23,7 +23,6 @@ public class Cart {
     public Cart() {
         listCart = new ArrayList<>();
         this.id = counter++;
-
     }
 
     @Autowired

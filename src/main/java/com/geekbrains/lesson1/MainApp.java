@@ -66,7 +66,6 @@ public class MainApp {
                 System.out.println("До скорого!");
                 quit = true;
             }
-
             if (input > 4) System.out.println("Введены неккоректные данные! Попробуйте еще раз!");
 
         }

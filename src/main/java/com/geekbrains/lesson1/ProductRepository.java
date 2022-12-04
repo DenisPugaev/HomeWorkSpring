@@ -12,7 +12,6 @@ public class ProductRepository {
 
     private List<Product> productList;
 
-
     @PostConstruct
     private void init() {
         productList = new ArrayList<>(Arrays.asList(
@@ -28,7 +27,6 @@ public class ProductRepository {
         System.out.println("Список товаров магазина: ");
         productList.stream().map(Product::toString).forEach(System.out::println);
     }
-
 
     public Product getProductById(int id) {
         return productList.stream().filter(product -> product.getId() == id).findFirst().orElse(null);
