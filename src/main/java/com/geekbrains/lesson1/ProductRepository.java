@@ -31,7 +31,7 @@ public class ProductRepository {
 
 
     public   Product getProductById (int id){
-     return productList.stream().filter(product -> product.getId()==id).findFirst().orElseThrow(NullPointerException::new);
+     return productList.stream().filter(product -> product.getId()==id).findFirst().orElse(null);
     }
 
 }

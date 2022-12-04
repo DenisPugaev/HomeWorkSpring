@@ -16,7 +16,7 @@ import static com.geekbrains.lesson1.MainApp.log;
 public class Cart {
     List<Product> listCart;
     private static int counter = 1;
-    private int id;
+    private final int id;
 
     ProductRepository productRepository;
 
@@ -33,19 +33,29 @@ public class Cart {
 
     public void addProduct(int id) {
         listCart.add(productRepository.getProductById(id));
-        log.info("Добавлен товар: "+productRepository.getProductById(id));
+        log.info("Добавлен товар: " + productRepository.getProductById(id));
 
     }
 
-    public void deleteProduct(int id){
-        listCart.removeIf(p->p.getId()==id);
-        log.info("Удален товар: "+productRepository.getProductById(id));
-
+    public void deleteProduct(int id) {
+        for (int i = 0; i < listCart.size(); i++) {
+            if (listCart.get(i).getId() == id) {
+                listCart.remove(i);
+                break;
+            }
+        }
+        log.info("Удален товар: " + productRepository.getProductById(id));
     }
-    public void showCart(){
-        System.out.println("\nСписок корзины № "+id + " :");
-        listCart.forEach(System.out::println);
+
+    public void showCart() {
+        if (listCart.isEmpty()) {
+            System.out.println("\nВы ничего не добавили в корзину )=");
+        } else {
+            System.out.println("\nСписок корзины № " + id + " :");
+            for (int i = 0; i < listCart.size(); i++) {
+                System.out.print(i + 1 + ". ");
+                System.out.println(listCart.get(i));
+            }
+        }
     }
-
-
 }

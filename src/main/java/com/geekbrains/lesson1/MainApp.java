@@ -8,7 +8,6 @@ import java.util.Scanner;
 public class MainApp {
     public static Logger log = Logger.getLogger("stdout");
     private static boolean quit;
-    private static boolean quitCart;
 
 
     public static void main(String[] args) {
@@ -27,19 +26,19 @@ public class MainApp {
                 productRepository.showAllProducts();
             }
             if ((2 == input)) {
-                quitCart = false;
+                boolean quitCart = false;
                 menuInfo("cartMenu");
                 while (!quitCart) {
                     input = sc.nextInt();
                     switch (input) {
                         case 1 -> {
-                            System.out.println("Введите id товара для добавления в корзину.");
+                            System.out.println("Введите ID товара для добавления в корзину.");
                             input = sc.nextInt();
                             cart.addProduct(input);
                             menuInfo("cartMenu");
                         }
                         case 2 -> {
-                            System.out.println("Введите id товара для удаления из корзины.");
+                            System.out.println("Введите ID товара для удаления из корзины.");
                             input = sc.nextInt();
                             cart.deleteProduct(input);
                             menuInfo("cartMenu");
@@ -49,27 +48,44 @@ public class MainApp {
                             menuInfo("cartMenu");
                         }
                         case 4 -> quitCart = true;
-                        default -> System.out.println("Введены неккоретные данные");
+                        default -> System.out.println("Введены неккоректные данные! Попробуйте еще раз!");
                     }
                 }
 
             }
             if (3 == input) {
+                System.out.println("Введите ID товара для его поиска.");
+                input = sc.nextInt();
+                if (productRepository.getProductById(input) != null) {
+                    System.out.println("\nРезультат поиска:\n" + productRepository.getProductById(input) + "\n");
+                } else System.out.println("\nРезультат поиска:\nТовар с данным ID не найден!\n");
+                input = 0;
+
+            }
+            if (4 == input) {
                 System.out.println("До скорого!");
                 quit = true;
             }
+
+            if (input > 4) System.out.println("Введены неккоректные данные! Попробуйте еще раз!");
 
         }
     }
 
     private static void menuInfo(String category) {
         switch (category) {
-            case "mainMenu" ->
-                    System.out.println("\nВведите: \n 1 - Посмотреть все товары. \n 2 - Перейти в корзину.\n 3 - Выход.");
-            case "cartMenu" -> System.out.println("\nМеню корзины:\n1 - Добавить товар в корзину.\n" +
-                    "2 - Удалить товар из корзины.\n" +
-                    "3 - Посмотреть содержимое корзины\n" +
-                    "4 - Назад");
+            case "mainMenu" -> System.out.println("""
+                    Введите: 
+                    1 - Посмотреть все товары.
+                    2 - Перейти в корзину.
+                    3 - Поиск товра по ID
+                    4 - Выход.""");
+            case "cartMenu" -> System.out.println("""
+                    Меню корзины:
+                    1 - Добавить товар в корзину.
+                    2 - Удалить товар из корзины.
+                    3 - Посмотреть содержимое корзины
+                    4 - Назад""");
         }
     }
 }
