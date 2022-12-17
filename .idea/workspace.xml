@@ -4,34 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10a041e4-0532-46f8-8c62-f1d0a1656916" name="Changes" comment="lesson1">
-      <change afterPath="$PROJECT_DIR$/.idea/JPAMappingSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/POJOGeneratorSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson6/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson6/models/Orders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson6/models/Products.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson6/models/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson6/repositories/ProductDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson6/repositories/ProductDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson6/repositories/SessionFactoryUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson6/repositories/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson6/repositories/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson6/servises/FinderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dump-postgres-202212171208.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson1/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson1/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson1/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson1/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson1/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson1/Products.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson1/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson1/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" />
+    <list default="true" id="10a041e4-0532-46f8-8c62-f1d0a1656916" name="Changes" comment="lesson6">
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/dump-postgres-202212171208.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +143,7 @@
       <workItem from="1670435398469" duration="1856000" />
       <workItem from="1671190005883" duration="14218000" />
       <workItem from="1671267054709" duration="27610000" />
-      <workItem from="1671297944148" duration="3550000" />
+      <workItem from="1671297944148" duration="3893000" />
     </task>
     <task id="LOCAL-00001" summary="lesson1">
       <created>1670157903902</created>
@@ -205,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670173930745</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="lesson6">
+      <created>1671301617463</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671301617463</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +206,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lesson1" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson1" />
+    <MESSAGE value="lesson6" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
