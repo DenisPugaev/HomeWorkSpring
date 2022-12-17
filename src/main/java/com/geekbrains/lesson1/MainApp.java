@@ -1,13 +1,13 @@
 package com.geekbrains.lesson1;
 
-import org.apache.log4j.Logger;
+
 import org.springframework.beans.BeansException;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.util.Scanner;
 
 public class MainApp {
-    public static Logger log = Logger.getLogger("stdout");
+
     private static boolean quit;
 
 
