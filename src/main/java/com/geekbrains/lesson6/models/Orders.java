@@ -2,6 +2,8 @@ package com.geekbrains.lesson6.models;
 
 import jakarta.persistence.*;
 
+
+
 @Entity
 @Table(name = "orders")
 public class Orders {
@@ -11,10 +13,10 @@ public class Orders {
     private int id;
 
     @ManyToOne
-    @JoinColumn(name = "id_user", referencedColumnName = "id", nullable = false)
+    @JoinColumn(name = "id_user", referencedColumnName = "id")
     private Users user;
     @ManyToOne
-    @JoinColumn(name = "id_products", referencedColumnName = "id", nullable = false)
+    @JoinColumn(name = "id_products", referencedColumnName = "id")
     private Products product;
 
     public int getId() {

@@ -5,9 +5,11 @@ import com.geekbrains.lesson6.models.Orders;
 import com.geekbrains.lesson6.models.Products;
 import com.geekbrains.lesson6.models.Users;
 import com.geekbrains.lesson6.repositories.*;
+
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;
+import java.util.List;
 
 
 @Service
@@ -27,7 +29,7 @@ public class FinderService {
         ProductDao productDao = new ProductDaoImpl(factory);
         Products product = productDao.findById(id);
         Collection<Orders> orders1 =  product.getOrders();
-        System.out.printf("%nКоличество заказов продукта %s: %s%n",product.getName(),orders1.size());
+        System.out.printf("%nКоличество заказов продукта %s [ID:%s]: %s%n",product.getName(),product.getId(),orders1.size());
         int counter = 0;
         for (Orders order : orders1) {
             counter++;
@@ -47,12 +49,18 @@ public class FinderService {
             counter++;
             System.out.printf("%s) [ID:%s] %s Стоимость товара: %s р %n",counter,order.getProduct().getId(),order.getProduct().getName(),order.getProduct().getCost());
         }
-
-
-
-
     }
 
+    public int getAllProductsSize(){
+        ProductDao  product= new ProductDaoImpl(factory);
+       List<Products> productsList = product.findAll();
+        return productsList.size();
+    }
+    public int getAllUsersSize(){
+        UserDao  user= new UserDaoImpl(factory);
+        List<Users> usersList = user.findAll();
+        return usersList.size();
+    }
 
 }
 

@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10a041e4-0532-46f8-8c62-f1d0a1656916" name="Changes" comment="lesson6">
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/dump-postgres-202212171208.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson6/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson6/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson6/models/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson6/models/Orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson6/models/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson6/models/Products.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson6/models/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson6/models/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson6/servises/FinderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson6/servises/FinderService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +33,23 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="recentNewPullRequestHead">
       <RepoCoordinatesHolder>
         <option name="owner" value="DenisPugaev" />
         <option name="repository" value="HomeWorkSpring" />
       </RepoCoordinatesHolder>
+    </option>
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="5bd1a497-a8e2-47a2-a28e-856fc4d0680b" />
+        <option name="url" value="https://github.com/DenisPugaev/HomeWorkSpring.git" />
+      </UrlAndAccount>
     </option>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -48,32 +63,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JPA.DatabaseSchemaImportDialog": "0ba7daaa-9bab-4a42-b51f-fc5329d471bf",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/DeN/IdeaProjects/SPRING(dir)/HomeWorkSpring/src/main/java/com/geekbrains/lesson6/models",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
-    "spring.configuration.checksum": "5321cc891f7367d10e6c3bc8f5d3c4fd",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JPA.DatabaseSchemaImportDialog&quot;: &quot;0ba7daaa-9bab-4a42-b51f-fc5329d471bf&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DeN/IdeaProjects/SPRING(dir)/HomeWorkSpring/src/main/java/com/geekbrains/lesson6/models&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;5321cc891f7367d10e6c3bc8f5d3c4fd&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\DeN\IdeaProjects\SPRING(dir)\HomeWorkSpring\src\main\java\com\geekbrains\lesson6\models" />
@@ -143,7 +157,9 @@
       <workItem from="1670435398469" duration="1856000" />
       <workItem from="1671190005883" duration="14218000" />
       <workItem from="1671267054709" duration="27610000" />
-      <workItem from="1671297944148" duration="3893000" />
+      <workItem from="1671297944148" duration="3997000" />
+      <workItem from="1671372263441" duration="1640000" />
+      <workItem from="1671376718953" duration="4262000" />
     </task>
     <task id="LOCAL-00001" summary="lesson1">
       <created>1670157903902</created>
@@ -187,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671301617463</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="lesson6">
+      <created>1671301884865</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671301884865</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,12 +260,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/geekbrains/lesson6/servises/FinderService.java</url>
-          <line>40</line>
+          <line>42</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/geekbrains/lesson6/servises/FinderService.java</url>
-          <line>26</line>
+          <line>28</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>

@@ -2,6 +2,7 @@ package com.geekbrains.lesson6.models;
 
 import jakarta.persistence.*;
 
+
 import java.util.Collection;
 
 @Entity
