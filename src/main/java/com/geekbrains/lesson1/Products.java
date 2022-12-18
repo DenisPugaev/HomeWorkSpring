@@ -1,11 +1,11 @@
 package com.geekbrains.lesson1;
 
-public class Product {
+public class Products {
     private int id;
     private String name;
     private double cost;
 
-    public Product(int id, String name, double cost) {
+    public Products(int id, String name, double cost) {
         this.id = id;
         this.name = name;
         this.cost = cost;
@@ -37,6 +37,6 @@ public class Product {
 
     @Override
     public String toString() {
-        return "[ID"+id + "] " + name + " " + cost +" р";
+        return "[ID" + id + "] " + name + " " + cost + " р";
     }
 }

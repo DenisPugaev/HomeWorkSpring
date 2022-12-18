@@ -9,12 +9,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-import static com.geekbrains.lesson1.MainApp.log;
+
 
 @Component
 @Scope("prototype")
 public class Cart {
-    List<Product> listCart;
+    List<Products> listCart;
     private static int counter = 1;
     private final int id;
 
@@ -23,7 +23,6 @@ public class Cart {
     public Cart() {
         listCart = new ArrayList<>();
         this.id = counter++;
-
     }
 
     @Autowired
@@ -33,7 +32,7 @@ public class Cart {
 
     public void addProduct(int id) {
         listCart.add(productRepository.getProductById(id));
-        log.info("Добавлен товар: " + productRepository.getProductById(id));
+
 
     }
 
@@ -44,7 +43,7 @@ public class Cart {
                 break;
             }
         }
-        log.info("Удален товар: " + productRepository.getProductById(id));
+
     }
 
     public void showCart() {

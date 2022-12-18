@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10a041e4-0532-46f8-8c62-f1d0a1656916" name="Changes" comment="lesson1">
+    <list default="true" id="10a041e4-0532-46f8-8c62-f1d0a1656916" name="Changes" comment="lesson6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson1/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson1/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson1/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson1/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson1/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson1/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson6/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson6/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson6/models/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson6/models/Orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson6/models/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson6/models/Products.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson6/models/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson6/models/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson6/servises/FinderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson6/servises/FinderService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,12 +20,37 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="DenisPugaev" />
+        <option name="repository" value="HomeWorkSpring" />
+      </RepoCoordinatesHolder>
+    </option>
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="5bd1a497-a8e2-47a2-a28e-856fc4d0680b" />
+        <option name="url" value="https://github.com/DenisPugaev/HomeWorkSpring.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -38,22 +65,47 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;JPA.DatabaseSchemaImportDialog&quot;: &quot;0ba7daaa-9bab-4a42-b51f-fc5329d471bf&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/DeN/IdeaProjects/HomeWorkSpring/src/main/resources&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DeN/IdeaProjects/SPRING(dir)/HomeWorkSpring/src/main/java/com/geekbrains/lesson6/models&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;5321cc891f7367d10e6c3bc8f5d3c4fd&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;5321cc891f7367d10e6c3bc8f5d3c4fd&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DeN\IdeaProjects\SPRING(dir)\HomeWorkSpring\src\main\java\com\geekbrains\lesson6\models" />
+      <recent name="C:\Users\DeN\IdeaProjects\SPRING(dir)\HomeWorkSpring\src\main\resources" />
       <recent name="C:\Users\DeN\IdeaProjects\HomeWorkSpring\src\main\resources" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DeN\IdeaProjects\SPRING(dir)\HomeWorkSpring\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.geekbrains.lesson6" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="com.geekbrains.lesson6.models" />
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.com.geekbrains.lesson6.MainApp">
     <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.geekbrains.lesson1.MainApp" />
       <module name="HomeWorkSpring" />
@@ -67,8 +119,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.geekbrains.lesson6.MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.lesson6.MainApp" />
+      <module name="HomeWorkSpring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.lesson6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.geekbrains.lesson6.MainApp" />
+        <item itemvalue="Application.MainApp" />
+        <item itemvalue="Application.MainApp" />
         <item itemvalue="Application.MainApp" />
       </list>
     </recent_temporary>
@@ -84,6 +152,14 @@
       <workItem from="1669977957178" duration="13783000" />
       <workItem from="1670156040273" duration="2409000" />
       <workItem from="1670167224227" duration="4757000" />
+      <workItem from="1670173849383" duration="94000" />
+      <workItem from="1670252878417" duration="30000" />
+      <workItem from="1670435398469" duration="1856000" />
+      <workItem from="1671190005883" duration="14218000" />
+      <workItem from="1671267054709" duration="27610000" />
+      <workItem from="1671297944148" duration="3997000" />
+      <workItem from="1671372263441" duration="1640000" />
+      <workItem from="1671376718953" duration="4262000" />
     </task>
     <task id="LOCAL-00001" summary="lesson1">
       <created>1670157903902</created>
@@ -92,7 +168,49 @@
       <option name="project" value="LOCAL" />
       <updated>1670157903902</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lesson1">
+      <created>1670172362803</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670172362803</updated>
+    </task>
+    <task id="LOCAL-00003" summary="lesson1">
+      <created>1670172419733</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670172419733</updated>
+    </task>
+    <task id="LOCAL-00004" summary="lesson1">
+      <created>1670172570714</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670172570714</updated>
+    </task>
+    <task id="LOCAL-00005" summary="lesson1">
+      <created>1670173930744</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670173930745</updated>
+    </task>
+    <task id="LOCAL-00006" summary="lesson6">
+      <created>1671301617463</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671301617463</updated>
+    </task>
+    <task id="LOCAL-00007" summary="lesson6">
+      <created>1671301884865</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671301884865</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,14 +229,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lesson1" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson1" />
+    <MESSAGE value="lesson6" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/geekbrains/lesson1/ProductRepository.java</url>
-          <line>26</line>
+          <line>25</line>
           <properties class="com.geekbrains.lesson1.ProductRepository" method="showAllProducts">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -127,7 +246,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/geekbrains/lesson1/Cart.java</url>
-          <line>39</line>
+          <line>38</line>
           <properties class="com.geekbrains.lesson1.Cart" method="deleteProduct">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -136,10 +255,30 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/geekbrains/lesson1/MainApp.java</url>
-          <line>20</line>
+          <line>21</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/geekbrains/lesson6/servises/FinderService.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/geekbrains/lesson6/servises/FinderService.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="userDao" />
+        <watch expression="((Orders)((org.hibernate.collection.spi.PersistentBag)user.ordersById).get(2)).productsByIdProducts" custom="org.hibernate.collection.spi.PersistentBag,com.geekbrains.lesson6.models.Orders" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
